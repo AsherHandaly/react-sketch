@@ -609,7 +609,7 @@ class SketchField extends PureComponent {
     let iText = new fabric.IText(text, options);
     let opts = {
       left: (canvas.getWidth() - iText.width) * 0.5,
-      top: (canvas.getHeight() - iText.height) * 0.5,
+      top: 24,
     };
     Object.assign(opts, options);
     iText.set({
